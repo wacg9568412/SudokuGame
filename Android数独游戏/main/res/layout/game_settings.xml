@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/setting" >
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:paddingRight="40dp"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:baselineAligned="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/music"
+                android:textSize="25sp"
+				android:textColor="@color/nwhite"
+                android:layout_marginLeft="10sp" />
+
+            <TextView
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/bgmusic"
+        		android:textSize="15sp"
+				android:textColor="@color/nwhite"
+        		android:layout_marginLeft="10sp" />
+    	</LinearLayout>
+
+        <CheckBox
+            android:id="@+id/chbMusic"
+            android:padding="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="20sp"
+			android:textColor="@color/nwhite"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"  >
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="40dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hints"
+                android:textSize="25sp"
+				android:textColor="@color/nwhite"
+                android:layout_marginLeft="10sp" />
+
+            <TextView
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/shint"
+        		android:textSize="15sp"
+				android:textColor="@color/nwhite"
+        		android:layout_marginLeft="10sp" />
+    	</LinearLayout>
+
+        <CheckBox
+            android:id="@+id/chbHint"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp"
+			android:textColor="@color/nwhite"
+            android:textSize="20sp"
+            android:text="" />
+
+    </LinearLayout>
+        
+
+
+</LinearLayout>

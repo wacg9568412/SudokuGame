@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SuDoKu</string>
+    <string name="action_settings">Settings\u2026</string>
+    <string name="title">Android SuDoKu</string>
+    <string name="continues">Continue</string>
+    <string name="start">New Game</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="topten">RankList</string>
+    <string name="title_activity_about_shu_du_game">About SuDoKu Game</string>
+    <string name="back">返回</string>
+    <string name="title_activity_shu_du_game_settings">SuDo game settings</string>
+    <string name="gameDifficulty">Difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="title_activity_game">Game</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="music">Music</string>
+    <string name="bgmusic">Play background music</string>
+    <string name="chbText">开启</string>
+    <string name="hints">Hints</string>
+    <string name="shint">Show  hints  during play</string>
+    <string name="title_activity_record_rank">RecordRank</string>
+    <string name="listrank">排行榜：</string>
+    <string name="dif">难度：</string>
+    <string name="mingci">名次</string>
+    <string name="usedtime">共用时间</string>
+    <string name="begintime">创建时间</string>
+    <string name= "login">请登录</string>
+    <string name="name">用户名:</string>
+    <string name="password">密码:</string>
+    <string name="for_login">登录</string>
+    <string name="regest">注册</string>
+</resources>

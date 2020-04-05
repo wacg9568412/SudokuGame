@@ -1,0 +1,17 @@
+ <resources>
+     <color name="green">#3f00ffff</color>
+     <color name="white">#00FFFAFA</color>
+     <color name="greyColor">#708090</color>
+     <color name="glcolor">#808000</color>
+     <color name="ygcolor">#000000</color>
+     <color name="rcolor">#FF69B4</color>
+     <color name="qianlv">#F0F8FF</color>
+     <color name="nwhite">#F5FFFA</color>
+     <color name="blackcolor">#00BFFF</color>
+     <color name="sy">#FF8C00</color>
+     <color name="grey">#708090</color>
+     <color name="puper">#C71585</color>
+     <color name="zise">#9400D3</color>
+      <color name="yellow"> #ddde62</color>
+      <color name="brown">#6a3906</color>
+</resources>

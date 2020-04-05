@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.sudokugame"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <application
+        android:icon="@drawable/desktop"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShuDuGame"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterUser"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".AboutShuDuGame"
+            android:label="@string/title_activity_about_shu_du_game"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".ShuDuGameSettings"
+            android:label="@string/title_activity_shu_du_game_settings" >
+        </activity>
+        <activity
+            android:name=".Game"
+            android:label="@string/title_activity_game" >
+        </activity>
+        <activity
+            android:name=".RecordRank"
+            android:label="@string/title_activity_record_rank" >
+        </activity>
+        <service android:name=".Music">
+            <intent-filter>
+                <action android:name="com.android.music"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
